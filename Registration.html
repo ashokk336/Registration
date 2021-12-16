@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form action="">
+            <h1 class="main_heading"> Registration </h1>
+    <p class="full-width"> To register, please take the time to fill out the information below</p>
+    <p class="form-input">First Name: <input type="text" name="name" placeholder=" First Name" id="name"> 
+    </p>
+    <p class="form-input"> Last Name:  <input type="text" name="name" placeholder="Last Name" id="name"> </p>
+    <fieldset>
+        <legend> Gender</legend>
+        <p class="full-width">male: <input type="radio" name="male" id="male" > Female <input type="radio" name="female" id="female"></p>
+    </fieldset>
+    <p class="full-width">Email: <input type="email" name="email" placeholder="example@demo.com" id="email"></p>
+    <p class="full-width"> Phone: <input type="text" name="number" id="number"> Birthday: <input type="date" name="date" id="date"></p>
+    <p class="full-width"> Address: <textarea  type="text" name="address" placeholder="Write Something" id="address" cols="40" rows="3"></textarea> </p>
+    <p class="full-width">
+        <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+        <button class="reset-btn" onclick="reset()">Reset</button>
+      </p>
+
+        </form>
+    </div>
+</body>
+</html>

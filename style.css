@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 80px;
+    font-size: 17px;
+    }
+.container{
+    background-color: rgb(215, 236, 215);
+    border: solid rgb(97, 105, 107);
+padding: 3em;
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+div.form{
+    background-color: rgb(212, 209, 209);
+}
+.submit-btn{
+    float: left;
+   padding: 0.5em;
+   font-size: 17px;
+}
+.reset-btn{
+    float: right;
+    padding:0.5em;
+    font-size:17px ;
+}
+.highlight-text{
+    width: 0%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea
+{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.fieldset{
+    background-color: #fff;
+    border: #ccc;
+    border-radius: 5px;
+
+}
+.main_heading{
+    text-align: center;
+    border-radius: 4px;
+}
+input[type="Submit"]{
+    background-color:#4da;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;}
+
+    .reset-btn{
+        background-color:#4da;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;}
+
+    
+.input[type="Submit"] :hover {
+    background-color: rgb(179, 132, 56);
+}
